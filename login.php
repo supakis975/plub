@@ -28,8 +28,16 @@ error_reporting(0);
       <label for="loginpassword">Password:</label>
       <input type="password" class="form-control" id="loginpassword" placeholder="Enter password" name="loginpassword" required>
     </div>
+  <div class="row">
+    <div class="col">ถ้าท่านยังไม่ได้สมัคสมาชิก <a href="signup.php">ลงทะเบียนที่นี่</a></div>
+    <div class="col"></div>
+    <div class="col"></div>
+  </div>
     <button type="submit" class="btn btn-success" name="login" id="login">Login</button>
   </form>
+
+  
+</div>
 </div>
  
 </body>
