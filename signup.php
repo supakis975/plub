@@ -40,10 +40,12 @@ if(isset($_POST['signup'])){
    }
 }
 
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  
   <title>SignUp Page</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -55,6 +57,20 @@ if(isset($_POST['signup'])){
 <body>
 
 <div class="container">
+<style>
+  body {
+            background-color:rgb(121, 117, 121);
+        }
+  
+
+  .fakeimg {
+
+    height: 200px;
+
+    background: #aaa;
+
+  }
+</style>
   <h2>SignUp Page</h2>
   <form action="#" method="post" >
     <div class="form-group">

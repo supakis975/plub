@@ -15,6 +15,20 @@ error_reporting(0);
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
+<style>
+  body {
+            background-color:rgb(184, 170, 184);
+        }
+  
+
+  .fakeimg {
+
+    height: 200px;
+
+    background: #aaa;
+
+  }
+</style>
  
 <div class="container">
   <h2>Login</h2>
